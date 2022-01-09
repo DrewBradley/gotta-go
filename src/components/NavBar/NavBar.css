@@ -8,7 +8,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #696D7D;
+  color: #000;
   font-weight: 600;
 }
 
@@ -18,5 +18,24 @@ nav {
   justify-content: space-between;
   padding: 0px 5em;
   background-color: #8FC0A9;
-  border-bottom: 1px solid #696D7D;
+  border-bottom: 1px solid #000;
+}
+
+.logo {
+  height: 50px;
+  margin: 5px 0px 0px;
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    flex-direction: column;
+    width: auto;
+    height: 90px;
+    padding: 0;
+  }
+
+  ul {
+    width: 300px;
+    justify-content: space-between;
+  }
 }

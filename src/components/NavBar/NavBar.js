@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './NavBar.css';
+import logo from '../../gottago-logo.png'
 
 const NavBar = () => {
   return (
       <nav>
-        <Link to="/">logo here</Link>
+        <Link to="/"><img className="logo" src={logo} /></Link>
         <ul>
           <li>
             <Link to="/">Home</Link>

@@ -5,7 +5,7 @@ import {
 Route } from "react-router-dom";
 
 import NavBar from '../NavBar/NavBar'
-import Map from '../Map/Map'
+import SearchMap from '../SearchMap/SearchMap'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <Routes>
             <Route path="/resources" />
             <Route path="/contact"/> 
-            <Route path="/" exact component={Map} />
+            <Route path="/" exact element={<SearchMap/>} />
           </Routes>
         </div>
       </Router>

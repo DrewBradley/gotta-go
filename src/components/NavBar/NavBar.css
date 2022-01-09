@@ -6,9 +6,17 @@ ul {
   width: 40%;
 }
 
+a {
+  text-decoration: none;
+  color: #696D7D;
+  font-weight: 600;
+}
+
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0px 5em;
+  padding: 0px 5em;
+  background-color: #8FC0A9;
+  border-bottom: 1px solid #696D7D;
 }
